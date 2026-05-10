@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "task01",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest -q tests/test_tasks.py::test_task01_view_students_data",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "task02",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest -q tests/test_tasks.py::test_task02_tourist_analysis",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "task03",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest -q tests/test_tasks.py::test_task03_filter_hotel_guests",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "task04",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest -q tests/test_tasks.py::test_task04_sort_products",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "task05",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest -q tests/test_tasks.py::test_task05_order_aggregation",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "task06",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest -q tests/test_tasks.py::test_task06_groupby_school_scores",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "task07",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest -q tests/test_tasks.py::test_task07_save_salary_result_csv",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "task08",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest -q tests/test_tasks.py::test_task08_combine_players_and_write_report",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "task09",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest -q tests/test_tasks.py::test_task09_read_sql_and_export",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "task10",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest -q tests/test_tasks.py::test_task10_clean_dirty_sales_csv",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}

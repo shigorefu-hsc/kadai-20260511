@@ -2,6 +2,11 @@ import pandas as pd
 
 df = pd.read_csv("students.csv")
 
+
+def ask_number(message):
+    return int(input(message))
+
+
 while True:
     print("\n=== task01: データを見るメニュー ===")
     print("1. 最初の行を表示する")
@@ -30,3 +35,4 @@ while True:
         print("終了します")
         break
     else:
+        print("その番号はありません")
